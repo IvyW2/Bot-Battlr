@@ -7,7 +7,7 @@ function App() {
 
   //fetching data from the server
   React.useEffect(() => {
-    fetch("http://localhost:8002/bots")
+    fetch("https://api.npoint.io/fc95b7d51ec3b28254bc/bots/")
       .then(res => res.json())
       .then(bots => {
         
